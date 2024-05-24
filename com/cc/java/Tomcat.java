@@ -27,9 +27,9 @@ public String getAge() {
   return String.valueOf(age);
 }
 
-private void output(String outputStr) {
-  System.out.println(outputStr);
-}
+// private void output(String outputStr) {
+//   System.out.println(outputStr);
+// }
 
 
 

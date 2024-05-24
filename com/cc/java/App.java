@@ -17,12 +17,12 @@ public class App {
 
         output("-------------------------");
 
-        Cat cat2 = new Cat("Alonzo", "grey", 35, false);
+        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35);
 
-        output(cat2.getStringAttributes("#name"));
-        output(cat2.getStringAttributes("#color"));
+        output(tomcat.getStringAttributes("#name"));
+        output(tomcat.getStringAttributes("#color"));
 
-        output(cat2.getAge()); 
+        output(tomcat.getAge()); 
 
     }
 

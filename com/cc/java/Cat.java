@@ -35,26 +35,20 @@ private String checkCompliance(){
 
   switch (counter) {
     case 1:
-      output(Integer.toString(counter));
       return "This is an inappropriate question!"; // 1st time
     case 2:
-      output(Integer.toString(counter));
       return "I've told you once!"; // 2nd time
     case 3:
-    output(Integer.toString(counter));
       return "Talk to the hand!"; // 3rd time
     default:
-    output(Integer.toString(counter));
       return "1#!?&&%"; //4th ++
  }
  
 }
 
-
-
-private void output(String outputStr) {
-  System.out.println(outputStr);
-}
+// private void output(String outputStr) {
+//   System.out.println(outputStr);
+// }
 
 
 
